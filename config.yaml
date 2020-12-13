@@ -1,0 +1,26 @@
+
+# database is required for all actions
+
+database:  # Currently only MySQL/MariaDB databases are supported on the standard port
+  host: "localhost"
+  username: "dbuser"
+  password: "dbuser"  
+
+action: "init"  # options are: "init", "processImages", "createMosaic"
+
+
+# If action is "init", it will create a database. No other settings are needed.
+
+
+# If action is "processImages":
+imagePath: "/var/www/html"
+
+
+# If action is "createMosaic"
+image: "picture.jpg"
+
+width: 20 # either "width" or "height" is required.  Not both.
+# height: 20
+
+outputFile: "mosaic.jpg"
+outputWidth: 4000 # pixel width
