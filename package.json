@@ -1,0 +1,26 @@
+{
+  "name": "picture-mosiac",
+  "version": "1.0.0",
+  "description": "Create a picture composed of other smaller pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkoop/picture-mosaic.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "mosaic",
+    "picture",
+    "image"
+  ],
+  "author": "Tim Koop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkoop/picture-mosaic/issues"
+  },
+  "homepage": "https://github.com/tkoop/picture-mosaic#readme"
+}
