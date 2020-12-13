@@ -2,7 +2,7 @@
   "name": "picture-mosiac",
   "version": "1.0.0",
   "description": "Create a picture composed of other smaller pictures",
-  "main": "index.js",
+  "main": "mosaic.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/tkoop/picture-mosaic/issues"
   },
-  "homepage": "https://github.com/tkoop/picture-mosaic#readme"
+  "homepage": "https://github.com/tkoop/picture-mosaic#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
